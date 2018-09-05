@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BC2ADEA21402624000352EC /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2ADE921402624000352EC /* SkillVC.swift */; };
+		5BC2ADEC21404F28000352EC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2ADEB21404F28000352EC /* Player.swift */; };
 		5BFA37B721239AAC00A71843 /* DesiredLeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA37B621239AAC00A71843 /* DesiredLeagueVC.swift */; };
 		5BFF28B2212297FC0076C071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF28B1212297FC0076C071 /* AppDelegate.swift */; };
-		5BFF28B4212297FC0076C071 /* StarterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF28B3212297FC0076C071 /* StarterVC.swift */; };
+		5BFF28B4212297FC0076C071 /* WelcomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF28B3212297FC0076C071 /* WelcomeVc.swift */; };
 		5BFF28B7212297FC0076C071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF28B5212297FC0076C071 /* Main.storyboard */; };
 		5BFF28B9212297FF0076C071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF28B8212297FF0076C071 /* Assets.xcassets */; };
 		5BFF28BC212297FF0076C071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF28BA212297FF0076C071 /* LaunchScreen.storyboard */; };
@@ -17,10 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BC2ADE921402624000352EC /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		5BC2ADEB21404F28000352EC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5BFA37B621239AAC00A71843 /* DesiredLeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredLeagueVC.swift; sourceTree = "<group>"; };
 		5BFF28AE212297FC0076C071 /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFF28B1212297FC0076C071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BFF28B3212297FC0076C071 /* StarterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterVC.swift; sourceTree = "<group>"; };
+		5BFF28B3212297FC0076C071 /* WelcomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVc.swift; sourceTree = "<group>"; };
 		5BFF28B6212297FC0076C071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BFF28B8212297FF0076C071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BFF28BB212297FF0076C071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,11 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BC2ADE821402419000352EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BC2ADEB21404F28000352EC /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5BFA37B521239A6B00A71843 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5BFF28B3212297FC0076C071 /* StarterVC.swift */,
+				5BFF28B3212297FC0076C071 /* WelcomeVc.swift */,
 				5BFA37B621239AAC00A71843 /* DesiredLeagueVC.swift */,
+				5BC2ADE921402624000352EC /* SkillVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -67,6 +80,7 @@
 		5BFF28B0212297FC0076C071 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				5BC2ADE821402419000352EC /* Models */,
 				5BFA37B521239A6B00A71843 /* Controllers */,
 				5BFF28C321229B760076C071 /* Views */,
 				5BFF28B1212297FC0076C071 /* AppDelegate.swift */,
@@ -159,7 +173,9 @@
 			files = (
 				5BFF28C521229BA60076C071 /* FramedBtn.swift in Sources */,
 				5BFA37B721239AAC00A71843 /* DesiredLeagueVC.swift in Sources */,
-				5BFF28B4212297FC0076C071 /* StarterVC.swift in Sources */,
+				5BFF28B4212297FC0076C071 /* WelcomeVc.swift in Sources */,
+				5BC2ADEA21402624000352EC /* SkillVC.swift in Sources */,
+				5BC2ADEC21404F28000352EC /* Player.swift in Sources */,
 				5BFF28B2212297FC0076C071 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

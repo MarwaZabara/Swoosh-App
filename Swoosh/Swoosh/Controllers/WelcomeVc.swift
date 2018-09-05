@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StarterVC: UIViewController {
+class WelcomeVc: UIViewController {
 
     @IBOutlet weak var Logo: UIImageView!
     @IBOutlet weak var BgImg: UIImageView!
@@ -21,6 +21,7 @@ class StarterVC: UIViewController {
     }
 
     @IBAction func UnWindFromDesiredLeagueVC (Segue: UIStoryboardSegue){}
+    
 
 }
 
